@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gabriel-immobilier</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/sass/style.css">
+    <script src="https://kit.fontawesome.com/d03be06573.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <nav class="navigation">
         <img src="image/logo.png" alt="logo" class="logo">
         <div class="container-btn">
-            <button class="btn">vendre <i class="bi bi-0-circle"></i></button>
+            <button class="btn">vendre </button>
             <button class="btn">acheter</button>
             <button class="btn">location</button>
             <button class="btn">contact </button>
@@ -33,7 +35,7 @@
         <img src="image/maison1.jpeg" alt="maison-principal" class="image-principal">
 
     </section>
-    <section class="container-miniatures">
+    <div class="container-miniatures">
         <a href="image/hall-entree.jpg"><img src="image/hall-entree-mini.png" alt="hall-entree"
                 title="cliquez pour agrandir"></a>
         <a href="image/salle-a-manger.png"><img src="image/salle-a-manger-mini.png" alt="salle à manger"></a>
@@ -46,7 +48,7 @@
         <a href="image/cuisine.png"><img src="image/cuisine-mini.png" alt="cuisine" title="cliquez pour agrandir"></a>
         <a href="image/jardin.png"><img src="image/jardin-mini.png" alt="jardin" title="cliquez pour agrandir"></a>
 
-    </section>
+        </div>
     <section class="container-description-localisation">
         <div class="descripion">
             <h2 class="description">description</h2>
@@ -55,12 +57,11 @@
                 Alès(30100),<br>
                 dans un environnement calme et avec une vue imprenable, cette maison de 165m²<br>
                 sera vous séduire par ses beaux volumes et ses prestations de qualités.<br>
+                display: flex;
+                align-items: center;erie.<br>
+                A l'étage : un hall dessert trois chambres, un wc et une suite parentale avec salle de bains privative
+                et dressing.<br>
 
-                Elle est composée de la façon suivante :<br>
-                Au rdc : une cuisine équipée ouverte sur une grande pièce de vie très lumineuse, une salle de bains,
-                un wc, un cellier et une buanderie.<br>
-                A l'étage : un hall dessert trois chambres, un wc et une suite parentale avec salle de bains privative et dressing.<br>
-                
                 Le bien dispose également d'un double garage, le tout sur un terrain clos et arboré de 1500m².<br>
                 A visiter sans tarder! Coup de cœur assurée! Honoraires à la charge du vendeur<br>
 
@@ -73,9 +74,83 @@
 
                 Bien En copropriété : NON </p>
         </div>
-        <h1 class="title-description">MAISON À VENDRE ALÈS 30100</h1>
+        <h1 class="titl-description">MAISON À VENDRE ALÈS 30100</h1>
         <img src="image/maap.png" alt="maap" class="localisation">
     </section>
+
+    <section class="container-caractèristique">
+
+        <h1 class="titl-contact">Caractèristiques</h1>
+
+        <div class="caractèristique">
+            <p><img src="image/lit.png" alt="lit" class="icons">5 chbrs</p> 
+            <img src="image/esquisser.png" alt="surface m2" class="icons">surface m2
+            <img src="image/douche.png" alt="douche" class="icons"> 1 douche
+            <img src="image/auto.png" alt="voiture" class="icons"> place de parking
+            <img src="image/garage.png" alt="" class="icons"> garage
+            <img src="image/fauteuil-roulant.png" alt="fauteuille-roulant" class="icons"> accès handicapé
+            <img src="image/terrasse.png" alt="terrasse" class="icons"> terrasse
+
+        </div>
+    </section>
+    <section class="annonce">
+
+        <h1 class="titl-autre-annonce">ces annonces peuvent vous intéresser</h1>
+
+        <div class="image-maison">
+
+            <a href="#" class="image-maison">
+                <img src="image/maison4-mini.png" alt="maison">
+            </a>
+
+            <a href="#" class="image-maison">
+                <img src="image/maison2-mini.png" alt="maison">
+            </a>
+            <a href="#" class="image-maison">
+                <img src="image/maison3-mini.png" alt="maison">
+            </a>
+        </div>
+
+        <div class="ville-prix">
+            <p>Rousson/345 550 €</p>
+            <P>La calmette/245 700 €</P>
+            <p>Alès/280 300 €</p>
+        </div>
+    </section>
+    <section class="contacts">
+        <h1 class="titl-contact">contact</h1>
+        <div class="formulaire">
+            <form class="formulaire">
+            <input class="text-formulaire" type="text" name="nom" placeholder="nom">
+            <input class="email-formulaire" type="email" name="email" placeholder="adresse e-mail">
+            <textarea class="message-formulaire" name="message" placeholder="message" cols="30" rows="10"></textarea>
+            <button class="button" type="submit"> me contacter</button>
+
+        </form>
+        </div>
+    </section>
+    <section class="container-footer">
+
+        <img src="image/logo.png" alt="logo" class="logo2">
+
+        <div class="info">
+            <a href="mailto:votreadresse@mail.fr" >
+                <img src="image/email.png" alt="email" >
+            </a>
+            <p class="img-footer"> e-mail</p>
+            <img src="image/localisateur.png" alt="localisation" style="width: 36px;height: 36px;"><p class="img-footer">188 avenue <br>charle de gaulle<br> 30100 Alès</p>
+            <img src="image/lhorloge.png" alt="Honoraire" style="width: 36px;height: 36px;" ><p class="img-footer" >ouvert:<br> de 9h00 à 12h00 <br>et de 14h00 à 19h00 </p>
+
+            
+
+        </div>
+    </section>
+
+
+
+
+
+
 
 </body>
 
