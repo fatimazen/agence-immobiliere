@@ -5,3 +5,9 @@
 @import "./annonces/annonces.scss";
 @import "./contact/contact.scss";
 @import "./footer/footer.scss";
+@import "./container-miniatures/container-miniatures.scss";
+body{
+    box-sizing: border-box;
+    margin: 3Opx;
+    padding: 5px;
+}

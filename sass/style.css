@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: space-between;
   border: 3px solid #A54657;
+  border-radius: 8px;
+  height: 100px;
 }
 
 .logo {
@@ -28,6 +30,152 @@
   background: #042E5C;
 }
 
+.photo-principal {
+  margin: unset;
+}
+
+.info {
+  line-height: 8px;
+  padding-bottom: 10px;
+}
+
+.prix {
+  color: #A54657;
+}
+
+.vente {
+  text-align: center;
+  color: #042E5C;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.image-principal {
+  width: 100%;
+  border: 5px, solid, #A54657;
+  border-radius: 10px;
+  height: 600PX;
+}
+
+.descripion {
+  display: flex;
+}
+
+.titl-description {
+  color: #A54657;
+  font-size: 30px;
+}
+
+.texte-description {
+  font-size: 18px;
+  width: 80%;
+}
+
+.titl-principal {
+  text-align: center;
+  color: #042E5C;
+  font-size: 35px;
+}
+
+.localisation {
+  display: flex;
+  justify-content: end;
+  color: #A54657;
+  border-radius: 5px;
+  padding-right: 10px;
+}
+
+.titl-localisation {
+  color: #A54657;
+  text-align: center;
+  font-size: 30px;
+}
+
+.titl-caracteristique {
+  text-align: center;
+  color: #A54657;
+  font-size: 30px;
+}
+
+.caracteristique {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titl-autre-annonce {
+  font-size: 30px;
+  text-align: center;
+  color: #A54657;
+}
+
+.image-annonce-maison {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-maison2 {
+  border: 1px solid #A54657;
+  border-radius: 5px;
+}
+
+.ville-prix {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contacts {
+  width: 100%;
+}
+
+.titl2-contact {
+  text-align: center;
+  border: 1px solid #A54657;
+  border-radius: 5px;
+  width: 15%;
+  margin: 5px auto;
+  color: #042E5C;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.button {
+  margin: 5px;
+  color: #fff;
+  background-color: #A54657;
+  border-radius: 5px;
+  border: 1px solid #A54657;
+}
+
+.button:hover {
+  background-color: #042E5C;
+}
+
+.text-formulaire {
+  width: 130%;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #A54657;
+  border-radius: 5px;
+}
+
+.message-formulaire {
+  width: 130%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #A54657;
+  border-radius: 5px;
+}
+
 .container-footer {
   display: flex;
   align-items: center;
@@ -36,12 +184,27 @@
   border-radius: 5px;
 }
 
-.info {
+.container-miniatures {
+  margin: 10px;
+  width: 100%;
   display: flex;
-  align-items: center;
-  padding: 10px;
+  flex-direction: row;
 }
 
-.img-footer {
-  margin-right: 100px;
+a {
+  margin: 2px;
+  padding: 3px;
+}
+
+.piece {
+  border: 1px solid #A54657;
+  border-radius: 12px;
+  width: 130px;
+  height: 130px;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 3Opx;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */

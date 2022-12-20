@@ -1,1 +1,22 @@
-/*# sourceMappingURL=annonces.css.map */
+.titl-autre-annonce {
+  font-size: 30px;
+  text-align: center;
+  color: #A54657;
+}
+
+.image-annonce-maison {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-maison2 {
+  border: 1px solid #A54657;
+  border-radius: 5px;
+}
+
+.ville-prix {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: bold;
+}/*# sourceMappingURL=annonces.css.map */
