@@ -1,5 +1,6 @@
 .descripion {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .titl-description {

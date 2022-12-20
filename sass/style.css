@@ -28,6 +28,8 @@
 
 .btn:hover {
   background: #042E5C;
+  border: 1px solid #A54657;
+  box-shadow: 0px 10px 13px -7px #000000;
 }
 
 .photo-principal {
@@ -52,13 +54,14 @@
 
 .image-principal {
   width: 100%;
-  border: 5px, solid, #A54657;
+  border: 1px solid #042E5C;
   border-radius: 10px;
   height: 600PX;
 }
 
 .descripion {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .titl-description {
@@ -101,6 +104,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .titl-autre-annonce {
@@ -112,6 +116,7 @@
 .image-annonce-maison {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .image-maison2 {
@@ -128,6 +133,7 @@
 
 .contacts {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .titl2-contact {
@@ -152,8 +158,11 @@
   margin: 5px;
   color: #fff;
   background-color: #A54657;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #A54657;
+  padding: 10px;
+  width: 30%;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 
 .button:hover {
@@ -182,6 +191,18 @@
   justify-content: space-between;
   border: 3px solid #A54657;
   border-radius: 5px;
+  height: 100px;
+}
+
+.info-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.img-footer {
+  margin-right: 180px;
 }
 
 .container-miniatures {
@@ -189,6 +210,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 a {
@@ -201,6 +223,11 @@ a {
   border-radius: 12px;
   width: 130px;
   height: 130px;
+  transition: transform 0.1s;
+}
+
+.piece:hover {
+  transform: scale(1.2);
 }
 
 body {

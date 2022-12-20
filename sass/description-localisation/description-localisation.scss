@@ -1,35 +1,34 @@
-.container-description-localisation{
+.descripion {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.titl-description {
+    color: #A54657;
+    font-size: 30px;
+}
 
+.texte-description {
+    font-size: 18px;
+    width: 80%;
 }
-.descripion{
-display: flex;
 
+.titl-principal {
+    text-align: center;
+    color: #042E5C;
+    font-size: 35px;
 }
-.titl-description{
-color:  #A54657;
-font-size: 30px;
-}
-.texte-description{
-font-size: 18px;
-width: 80%;
 
+.localisation {
+    display: flex;
+    justify-content: end;
+    color: #A54657;
+    border-radius: 5px;
+    padding-right: 10px;
 }
-.titl-principal{
-text-align: center;
-color:  #042E5C;
-font-size: 35px;
-}
-.localisation{
-display: flex;
-justify-content: end;
-color: #A54657;
-border-radius: 5px;
-padding-right: 10px;
 
-}
-.titl-localisation{
-color: #A54657;
-text-align: center;
-font-size: 30px;
+.titl-localisation {
+    color: #A54657;
+    text-align: center;
+    font-size: 30px;
 }

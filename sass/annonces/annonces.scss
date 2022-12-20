@@ -1,25 +1,23 @@
-.annonce{
-
+.titl-autre-annonce {
+    font-size: 30px;
+    text-align: center;
+    color: #A54657;
 }
-.titl-autre-annonce{
-font-size: 30px;
-text-align: center;
-color: #A54657;
 
+.image-annonce-maison {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.image-maison2 {
+    border: 1px solid #A54657;
+    border-radius: 5px;
 }
-.image-annonce-maison{
-display: flex;
-justify-content:space-around;
-}
-.image-maison2{
-border:1px solid #A54657;
-border-radius: 5px;
 
-}
-.ville-prix{
-display: flex;
-justify-content: space-around;
-font-size: 18px;
-font-weight: bold;
+.ville-prix {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
 }

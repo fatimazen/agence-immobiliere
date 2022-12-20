@@ -4,4 +4,16 @@
   justify-content: space-between;
   border: 3px solid #A54657;
   border-radius: 5px;
+  height: 100px;
+}
+
+.info-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.img-footer {
+  margin-right: 180px;
 }/*# sourceMappingURL=footer.css.map */

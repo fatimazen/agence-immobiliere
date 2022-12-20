@@ -1,15 +1,19 @@
-.container-footer{
+.container-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: 3px solid #A54657;
     border-radius: 5px;
-
-}
-.logo2{
-
+    height: 100px;
 }
 
-.info-footer{
+.info-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
 
+.img-footer {
+    margin-right: 180px;
 }

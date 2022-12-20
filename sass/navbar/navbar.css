@@ -28,4 +28,6 @@
 
 .btn:hover {
   background: #042E5C;
+  border: 1px solid #A54657;
+  box-shadow: 0px 10px 13px -7px #000000;
 }/*# sourceMappingURL=navbar.css.map */
