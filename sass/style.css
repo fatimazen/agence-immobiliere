@@ -230,6 +230,21 @@ a {
   transform: scale(1.2);
 }
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  body {
+    margin: 0px;
+  }
+  .btn {
+    font-size: 10px;
+  }
+  a {
+    display: none;
+  }
+}
+.navigation {
+  width: 100%;
+}
+
 body {
   box-sizing: border-box;
   margin: 3Opx;
